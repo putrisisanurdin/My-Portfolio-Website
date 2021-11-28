@@ -1,0 +1,32 @@
+.services {
+  background-color: rgb(236, 241, 250);
+  padding: 100px 15px 70px;
+}
+
+.skills__container{
+  row-gap: 2rem;
+}
+.skills__subtitle{
+  color: black;
+  margin-bottom: 1.5rem;
+}
+.skills__name{
+  display: inline-block;
+  font-size: .900rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  padding: .25rem .5rem;
+  background-color: rgb(236, 241, 250);
+  border-radius: .25rem;
+}
+.skills__name:hover{
+  background-color: #5361FF;
+  color: #FAFAFF;
+}
+
+@media(max-width: 767px) {
+  .services .img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
